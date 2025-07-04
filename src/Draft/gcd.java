@@ -1,17 +1,17 @@
 package Draft;
 
 public class gcd {
-    public static int GCD (int a , int b ){
-        int n = Math.min(a,b);
-        for (int i =1 ; i <= n ; i++){
-            int gcd =i ;
-            if (a%i  == 0 && b% i== 0)
-                return gcd;
+
+    public static int GCD(int a, int b) {
+        int n = Math.min(a, b);
+        for (int i = n; i >= 1; i--) {
+            if (a % i == 0 && b % i == 0)
+                return i;
         }
-        return 0;
+        return 1;
     }
 
     public static void main(String[] args) {
-        System.out.println( GCD( 9, 18) );
+        System.out.println(GCD(9, 18)); // Output: 9
     }
 }
