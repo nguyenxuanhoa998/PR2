@@ -2,31 +2,20 @@ package Draft;
 import java.util.Scanner;
 public class japanFlag {
     // làm bài doubloon
-    public static boolean isDoubloon(String input){
-        input = input.toLowerCase();
-        for (int i =0; i< input.length(); i++){
-            char current = input.charAt(i);
-            boolean alreadyChecked = false;
-            for (int j = 0; j < i; j++) {
-                if (input.charAt(j) == current) {
-                    alreadyChecked = true;
-                    break;
-                }
-            }
-            if (alreadyChecked) continue;
-
-            // Đếm số lần xuất hiện
+    public static boolean isDoubloon(String input) {
+        input = input.toLowerCase(); // Bỏ qua phân biệt hoa thường
+        char[] chars = input.toCharArray();
+        for(int i=0 ; i< chars.length; i++){
             int count = 0;
-            for (int k = 0; k < input.length(); k++) {
-                if (input.charAt(k) == current) {
-                    count++;
+            for(int j=0; j< chars.length; j++){
+                if(chars[i] == chars[j]){
+                    count ++ ;
                 }
             }
-
-            // Nếu khác 2 lần thì không phải doubloon
-            if (count != 2) return false;
+            if(count !=2){
+                return false;
+            }
         }
-
         return true;
     }
 

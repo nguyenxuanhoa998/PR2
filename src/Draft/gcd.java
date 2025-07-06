@@ -12,6 +12,6 @@ public class gcd {
     }
 
     public static void main(String[] args) {
-        System.out.println(GCD(9, 18)); // Output: 9
+        System.out.println(GCD(5,6)); // Output: 9
     }
 }
