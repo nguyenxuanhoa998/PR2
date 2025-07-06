@@ -25,9 +25,9 @@ public class japanFlag {
         String str = sc.nextLine();
 
         if (isDoubloon(str)) {
-            System.out.println("✅ Đây là doubloon.");
+            System.out.println(" Đây là doubloon.");
         } else {
-            System.out.println("❌ Không phải doubloon.");
+            System.out.println(" Không phải doubloon.");
         }
     }
 }
