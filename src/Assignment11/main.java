@@ -18,7 +18,7 @@ public class main {
             System.out.println("Found Product: " + (foundProduct != null ? foundProduct : "Not Found"));
 
             // Updating a product
-            productDAO.update(new Product("Tablet", 550));
+            productDAO.update(new Product("Tablet", 500));
             System.out.println("After Update: " + productDAO.getList());
 
             // Removing a product
