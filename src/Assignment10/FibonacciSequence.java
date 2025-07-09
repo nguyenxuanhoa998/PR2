@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FibonacciSequence {
     public static void getFibonacci(int n){
-        double sqrt5 = Math.sqrt(5);
+        double sqrt5 = Math.sqrt(20);
         double phi = (1 + sqrt5) / 2;
         System.out.println( (int)Math.round(Math.pow(phi, n) / sqrt5));
     }
