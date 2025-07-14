@@ -7,6 +7,7 @@ class Employee {
     private String email;
     private String department;
     private int Iádasdđása ;
+    private int hoa;
     public Employee(String name, String phoneNumber, String email, String department) {
         this.name = name;
         this.phoneNumber = phoneNumber;
