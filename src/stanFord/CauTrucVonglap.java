@@ -19,11 +19,13 @@ public class CauTrucVonglap {
         System.out.println("Nhập số nguyên dương vào: ");
         int N= 0;
         int sum = 0;
+        int average;
         N = sc.nextInt();
 
         for (int  k =0 ; k < N ; k ++){
             sum = sum +k;
         }
-        System.out.println("S = " + sum /N);
+        average= sum/N;
+        System.out.println("S = " + average);
     }
 }
