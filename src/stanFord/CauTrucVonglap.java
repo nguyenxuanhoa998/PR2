@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CauTrucVonglap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int i =0 ;
+        /*int i =0 ;
         while (i<10){
             i++;
             System.out.println("hôm nay nanwgg đẹp " + i);
@@ -26,6 +26,19 @@ public class CauTrucVonglap {
             sum = sum +k;
         }
         average= (double) sum/N;
-        System.out.printf("S = %.2f" , average);
+        System.out.printf("S = %.2f" , average);*/
+        int hangChuc=0;
+        int donvi=0;
+        int tong =0;
+        int tich=0;
+        for (int i =10; i<=99; i++){
+             hangChuc=i/10;
+            donvi=i%10;
+            tong = hangChuc+donvi;
+            tich=hangChuc*donvi;
+            if(tich==2*tong){
+                System.out.println(i);
+            }
+        }
     }
 }
