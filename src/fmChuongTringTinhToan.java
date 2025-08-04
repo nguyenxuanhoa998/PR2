@@ -169,7 +169,8 @@ public class fmChuongTringTinhToan extends javax.swing.JFrame {
     /*Xư lý bút tính toán*/
     private void txtTinhToanActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-        double a = 0;
+        double soa=0,sob=0,ketqua=0;
+        String strSoa="", strSob="",phepToan="";
     }
 
     private void txtSoaActionPerformed(java.awt.event.ActionEvent evt) {
