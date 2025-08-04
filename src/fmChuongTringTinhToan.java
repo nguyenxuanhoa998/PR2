@@ -171,8 +171,13 @@ public class fmChuongTringTinhToan extends javax.swing.JFrame {
         // TODO add your handling code here:
         double soa=0,sob=0,ketqua=0;
         String strSoa="", strSob="",phepToan="";
-       strSoa= txtSoa.getText();
-       
+      try{
+          strSoa= txtSoa.getText();
+          strSob=txtSob
+      }catch(Exception e){
+          System.out.println("Nhập nhầm rồi");
+      }
+
     }
 
     private void txtSoaActionPerformed(java.awt.event.ActionEvent evt) {
