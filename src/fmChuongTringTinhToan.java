@@ -18,7 +18,7 @@ public class fmChuongTringTinhToan extends javax.swing.JFrame {
      * sáng thì đi học tối thì đi học code hết nawngluownjg rồi
      * huhu
      * mai lại phỉa i làm
-     * huihu kho muốn đi làm đau mốn ngủ cơ
+     *nay lại mệt
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
