@@ -3,9 +3,10 @@ package Assignment04;
 public class Circle {
     private double radius;
     private String color;
+    private double Pi;
 
     public Circle() {
-        return;
+
 
     }
 
