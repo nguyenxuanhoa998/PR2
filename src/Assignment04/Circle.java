@@ -17,7 +17,6 @@ public class Circle {
     }
 
     public Circle(double r, String c) {
-        return;
     }
 
     public double getRadius() {
