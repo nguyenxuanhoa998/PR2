@@ -13,6 +13,8 @@ public class mang2chieu {
         a[2] = 4;
         a[3]=5;
 
+        System.out.println(a.length);
+
         System.out.println("Các phần tử trong mảng a:");
         for (int i = 0; i < a.length; i++) {
             System.out.println("a[" + i + "] = " + a[i]);
