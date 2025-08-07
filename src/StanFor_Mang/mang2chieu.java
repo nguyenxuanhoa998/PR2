@@ -7,10 +7,11 @@ public class mang2chieu {
         Scanner sc = new Scanner(System.in);
 
         // Ví dụ 1: Khai báo mảng số nguyên gồm 3 phần tử và gán giá trị
-        int[] a = new int[3];
+        int[] a = new int[4];
         a[0] = 2;
         a[1] = 3;
         a[2] = 4;
+
 
         System.out.println("Các phần tử trong mảng a:");
         for (int i = 0; i < a.length; i++) {
