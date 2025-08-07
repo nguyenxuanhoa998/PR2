@@ -14,6 +14,7 @@ public class mang2chieu {
         a[3]=5;
 
         System.out.println(a.length);
+        System.out.println(a.getClass());
 
         System.out.println("Các phần tử trong mảng a:");
         for (int i = 0; i < a.length; i++) {
