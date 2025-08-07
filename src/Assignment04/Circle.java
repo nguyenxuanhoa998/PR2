@@ -4,7 +4,7 @@ public class Circle {
     private double radius;
     private String color;
     private double Pi;
-    //hóa học
+    //hóa học java
 
     public Circle() {
 
