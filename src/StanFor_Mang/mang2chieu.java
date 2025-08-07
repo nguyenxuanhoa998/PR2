@@ -11,7 +11,7 @@ public class mang2chieu {
         a[0] = 2;
         a[1] = 3;
         a[2] = 4;
-
+        a[3]=5;
 
         System.out.println("Các phần tử trong mảng a:");
         for (int i = 0; i < a.length; i++) {
