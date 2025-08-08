@@ -5,4 +5,4 @@ pass1
 user2
 pass2
 78
-MNARG LÀ LÀ TẬP HỢP MỘT DÃY GIÁ TRỊ LIÊN TIẾP GIỐNG NHAU được lưu trữ trong 1 vùng nhớ liên tiếp
+MNARG LÀ LÀ TẬP HỢP MỘT DÃY GIÁ TRỊ LIÊN TIẾP GIỐNG NHAU được lưu trữ trong 1 vùng nhớ liên tiếp mỗi giá trị trong mảng giống như 1 cái hộp vậy
