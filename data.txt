@@ -26,5 +26,6 @@ queue = new [capacity];
 front =0;
 rear=-1;
 size =0;
+//
 }
 }
