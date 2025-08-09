@@ -9,3 +9,6 @@ MNARG LÀ LÀ TẬP HỢP MỘT DÃY GIÁ TRỊ LIÊN TIẾP GIỐNG NHAU đư�
 int mang [n]= new int [n] cái này alf nhập soos lwuojnng phần tử trong mảng
 
 int mang[]= new int[10];
+
+// viít mộ bài về mảng với các class
+
