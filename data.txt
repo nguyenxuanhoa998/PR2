@@ -14,5 +14,8 @@ int mang[]= new int[10];
 
 public class ArrayQueueFifo{
 //field , instnace variable
-privaate
+private int [] queue;
+private int front ;
+private int rear ;
+
 }
