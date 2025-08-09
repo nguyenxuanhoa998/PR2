@@ -17,10 +17,14 @@ public class ArrayQueueFifo{
 private int [] queue;
 private int front ;
 private int rear ;
+int size;
 private int capacity ;// sức chứa tối đa
 
 public class(int capacity){
 this.capacity =capacity;
-
+queue = new [capacity];
+front =0;
+rear=-1;
+size =0;
 }
 }
