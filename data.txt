@@ -17,5 +17,10 @@ public class ArrayQueueFifo{
 private int [] queue;
 private int front ;
 private int rear ;
+private int capacity ;// sức chứa tối đa
 
+public class(int capacity){
+this.capacity =capacity;
+
+}
 }
