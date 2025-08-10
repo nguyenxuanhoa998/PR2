@@ -22,7 +22,7 @@ public class jk {
         // In ra mảng
         System.out.print("Các phần tử đã nhập: ");
         for (int x : arr) {
-            System.out.print(x + " ");
+            System.out.print(x + " ");//
         }
     }
 }
