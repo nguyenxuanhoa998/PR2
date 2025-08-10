@@ -10,7 +10,6 @@ public class cigar {
     }
     public static void main (String [] args){
         System.out.print(cigarParty(70, false));
-
-
+        System.out.println("hahah");
     }
 }
