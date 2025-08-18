@@ -20,5 +20,6 @@ public class mang {
         }
 
         sc.close();
+        // nam béo
     }
 }
